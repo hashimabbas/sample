@@ -1,0 +1,54 @@
+aside .panel {
+    margin-bottom: 50px;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.2);
+    width: 100%;
+    font-family: "Almarai", "Cambo", "Times New Roman", serif;
+}
+
+aside .panel-heading {
+    background-color: #2980b9 !important;
+    color: #FFF !important;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+aside .panel-heading:hover {
+    cursor: pointer;
+}
+
+aside .panel-body {
+    padding: 5px;
+}
+
+aside .panel .panel-body li {
+    background-color: #EEE;
+    border: 1px solid #DDD;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+aside .panel .panel-body .inlin-li li {
+    display: inline flow-root list-item;
+    background-color: #EEE;
+    border: 1px solid #DDD;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+aside .panel .panel-body .inlin-li li:hover {
+    background-color: #2980b9;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.asdid-2 .panel .panel-body li {
+    display: inline flow-root list-item;
+    background-color: #EEE;
+    border: 1px solid #DDD;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
